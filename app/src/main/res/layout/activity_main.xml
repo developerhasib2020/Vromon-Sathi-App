@@ -36,6 +36,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     app:autoPlay="true"
+                    app:showBottomShadow="true"
+                    app:showTopShadow="false"
                     app:captionMargin="8dp"
                     app:layout_constraintCircleRadius="15dp"
                     app:showIndicator="false"

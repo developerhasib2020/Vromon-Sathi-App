@@ -143,10 +143,14 @@ public class MainActivity extends AppCompatActivity {
         carosel = findViewById(R.id.carousel);
 
         List<CarouselItem> list = new ArrayList<>();
-        list.add(new CarouselItem(R.drawable.worldtour2, "World Tourism"));
-        list.add(new CarouselItem(R.drawable.coxsbazar, "Cox's Bazar"));
-        list.add(new CarouselItem(R.drawable.sylhetteastate, "Sylhet Tea State"));
-        list.add(new CarouselItem(R.drawable.sundarban, "Sundarban"));
+        list.add(new CarouselItem(R.drawable.coxsbazar, "কক্সবাজার"));
+        list.add(new CarouselItem(R.drawable.sylhetteastate, "চা বাগান"));
+        list.add(new CarouselItem(R.drawable.sundarban, "সুন্দরবন"));
+        list.add(new CarouselItem(R.drawable.suptodharajhornasitakunda, "সুপ্তধারা ঝর্না"));
+        list.add(new CarouselItem(R.drawable.guthiamosque, "গুঠিয়া মসজিদ"));
+        list.add(new CarouselItem(R.drawable.hazratshahjalalmazarsylhet, "শাহ জালাল (রহঃ) এর মাজার"));
+        list.add(new CarouselItem(R.drawable.ahsanmanjil, "আহসান মঞ্জিল"));
+        list.add(new CarouselItem(R.drawable.nilgiribandarban, "নীলগিরি,বান্দরবন"));
         carosel.setData(list);
     }
 

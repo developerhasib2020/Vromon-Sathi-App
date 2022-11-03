@@ -488,7 +488,7 @@ public class SpotlistActivity extends AppCompatActivity {
 
         } else if (districtName.equals("রাজশাহী")) {
             for (int i = 0; i < rajshahidetails.length; i++) {
-                spotlist.add(new DivisionModel("rajshahi spot", rajshahidetails[i], rajshahiimage[i]));
+                spotlist.add(new DivisionModel(rajshahispotname[i], rajshahidetails[i], rajshahiimage[i]));
             }
         } else if (districtName.equals("চাঁপাইনবাবগঞ্জ")) {
             for (int i = 0; i < chapaidetails.length; i++) {

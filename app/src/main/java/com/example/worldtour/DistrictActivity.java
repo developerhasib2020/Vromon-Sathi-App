@@ -85,73 +85,73 @@ public class DistrictActivity extends AppCompatActivity {
     }
 
     private void setChittagongDistrictlist() {
-        districtlist.add(new DivisionModel("চট্টগ্রাম", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.suptodharajhornasitakunda));
-        districtlist.add(new DivisionModel("কক্সবাজার", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("কুমিল্লা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.shalbanviharacomilla));
-        districtlist.add(new DivisionModel("খাগড়াছড়ি", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.alutilacave));
-        districtlist.add(new DivisionModel("চাঁদপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.hilsafishchandpur));
-        districtlist.add(new DivisionModel("নোয়াখালী", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.nijhumdwip));
-        districtlist.add(new DivisionModel("ফেনী", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.muhuriprojectfeni));
-        districtlist.add(new DivisionModel("ব্রাহ্মণবাড়িয়া", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.sandwipchittagong));
-        districtlist.add(new DivisionModel("রাঙ্গামাটি", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.furomonpaharangamati));
-        districtlist.add(new DivisionModel("বান্দরবান", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.nilgiribandarban));
-        districtlist.add(new DivisionModel("লক্ষ্মীপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.choralexander));
+        districtlist.add(new DivisionModel("চট্টগ্রাম", "দর্শনীয় স্থান ঃ ৩৫টি", R.drawable.suptodharajhornasitakunda));
+        districtlist.add(new DivisionModel("কক্সবাজার", "দর্শনীয় স্থান ঃ ১৭টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("কুমিল্লা", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.shalbanviharacomilla));
+        districtlist.add(new DivisionModel("খাগড়াছড়ি", "দর্শনীয় স্থান ঃ ০৯টি", R.drawable.alutilacave));
+        districtlist.add(new DivisionModel("চাঁদপুর", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.hilsafishchandpur));
+        districtlist.add(new DivisionModel("নোয়াখালী", "দর্শনীয় স্থান ঃ ০৪টি", R.drawable.nijhumdwip));
+        districtlist.add(new DivisionModel("ফেনী", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.muhuriprojectfeni));
+        districtlist.add(new DivisionModel("ব্রাহ্মণবাড়িয়া", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.sandwipchittagong));
+        districtlist.add(new DivisionModel("রাঙ্গামাটি", "দর্শনীয় স্থান ঃ ২০টি", R.drawable.furomonpaharangamati));
+        districtlist.add(new DivisionModel("বান্দরবান", "দর্শনীয় স্থান ঃ ৫১টি", R.drawable.nilgiribandarban));
+        districtlist.add(new DivisionModel("লক্ষ্মীপুর", "দর্শনীয় স্থান ঃ ০১টি", R.drawable.choralexander));
     }
 
 
     private void setKhulnaDistrictlist() {
-        districtlist.add(new DivisionModel("খুলনা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.monglaportbagerhat));
-        districtlist.add(new DivisionModel("কুষ্টিয়া", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.lalonmelakushtia));
-        districtlist.add(new DivisionModel("বাগেরহাট", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.sundarban));
-        districtlist.add(new DivisionModel("যশোর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.jessoregodkhaliflowermarket));
-        districtlist.add(new DivisionModel("মেহেরপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.meherpurmujibnagar));
-        districtlist.add(new DivisionModel("মাগুরা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.maguravatervita));
-        districtlist.add(new DivisionModel("সাতক্ষীরা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.mandarbariaseabeachsatkhira));
+        districtlist.add(new DivisionModel("খুলনা", "দর্শনীয় স্থান ঃ ০৮টি", R.drawable.monglaportbagerhat));
+        districtlist.add(new DivisionModel("কুষ্টিয়া", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.lalonmelakushtia));
+        districtlist.add(new DivisionModel("বাগেরহাট", "দর্শনীয় স্থান ঃ ১৬টি", R.drawable.sundarban));
+        districtlist.add(new DivisionModel("যশোর", "দর্শনীয় স্থান ঃ ০৪টি", R.drawable.jessoregodkhaliflowermarket));
+        districtlist.add(new DivisionModel("মেহেরপুর", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.meherpurmujibnagar));
+        districtlist.add(new DivisionModel("মাগুরা", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.maguravatervita));
+        districtlist.add(new DivisionModel("সাতক্ষীরা", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.mandarbariaseabeachsatkhira));
     }
 
     private void setRajshahiDistrictlist() {
-        districtlist.add(new DivisionModel("রাজশাহী", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.varendraresearchmuseumrajshahi));
-        districtlist.add(new DivisionModel("চাঁপাইনবাবগঞ্জ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.harivangamango));
-        districtlist.add(new DivisionModel("পাবনা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("বগুড়া", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("সিরাজগঞ্জ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("জয়পুরহাট", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("নাটোর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
-        districtlist.add(new DivisionModel("নওগাঁ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("রাজশাহী", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.varendraresearchmuseumrajshahi));
+        districtlist.add(new DivisionModel("চাঁপাইনবাবগঞ্জ", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.harivangamango));
+        districtlist.add(new DivisionModel("পাবনা", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("বগুড়া", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("সিরাজগঞ্জ", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("জয়পুরহাট", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("নাটোর", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("নওগাঁ", "দর্শনীয় স্থান ঃ ০৭টি", R.drawable.coxsbazar));
     }
 
     private void setRangpurDistrictlist() {
-        districtlist.add(new DivisionModel("রংপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.tajhatpalacerangpur));
-        districtlist.add(new DivisionModel("কুড়িগ্রাম", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.ochingachkurigram));
-        districtlist.add(new DivisionModel("দিনাজপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.shopnopuripicnicspotdinajpur));
-        districtlist.add(new DivisionModel("নীলফামারী", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.teestabarrage));
-        districtlist.add(new DivisionModel("গাইবান্ধা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.friendshipcentergaibandha));
-        districtlist.add(new DivisionModel("লালমনিরহাট", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.nidariamasjidlalmonirhat));
-        districtlist.add(new DivisionModel("পঞ্চগড়", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.coxsbazar));
+        districtlist.add(new DivisionModel("রংপুর", "দর্শনীয় স্থান ঃ ০৪টি", R.drawable.tajhatpalacerangpur));
+        districtlist.add(new DivisionModel("কুড়িগ্রাম", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.ochingachkurigram));
+        districtlist.add(new DivisionModel("দিনাজপুর", "দর্শনীয় স্থান ঃ ০৯টি", R.drawable.shopnopuripicnicspotdinajpur));
+        districtlist.add(new DivisionModel("নীলফামারী", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.teestabarrage));
+        districtlist.add(new DivisionModel("গাইবান্ধা", "দর্শনীয় স্থান ঃ ০১টি", R.drawable.friendshipcentergaibandha));
+        districtlist.add(new DivisionModel("লালমনিরহাট", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.nidariamasjidlalmonirhat));
+        districtlist.add(new DivisionModel("পঞ্চগড়", "দর্শনীয় স্থান ঃ ০৮টি", R.drawable.coxsbazar));
     }
 
     private void setMymensinghDistrictlist() {
-        districtlist.add(new DivisionModel("ময়মনসিংহ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.mymensinghshoshilodge));
-        districtlist.add(new DivisionModel("শেরপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.sherpurchildrenspark));
-        districtlist.add(new DivisionModel("নেত্রকোনা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.dingapotahaornetrokona));
-        districtlist.add(new DivisionModel("জামালপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.gandhiashramjamalpur));
+        districtlist.add(new DivisionModel("ময়মনসিংহ", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.mymensinghshoshilodge));
+        districtlist.add(new DivisionModel("শেরপুর", "দর্শনীয় স্থান ঃ ০৫টি", R.drawable.sherpurchildrenspark));
+        districtlist.add(new DivisionModel("নেত্রকোনা", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.dingapotahaornetrokona));
+        districtlist.add(new DivisionModel("জামালপুর", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.gandhiashramjamalpur));
     }
 
     private void setSylhetDistrictlist() {
-        districtlist.add(new DivisionModel("সিলেট", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.hazratshahjalalmazarsylhet));
-        districtlist.add(new DivisionModel("মৌলভীবাজার", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.adampurbitrajkandmoulovibazar));
-        districtlist.add(new DivisionModel("শ্রীমঙ্গল", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.sylhetteastate));
-        districtlist.add(new DivisionModel("সুনামগঞ্জ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.tanguarhaorsunamganj));
-        districtlist.add(new DivisionModel("হবিগঞ্জ", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.greenlandparkchunarughathabiganj));
+        districtlist.add(new DivisionModel("সিলেট", "দর্শনীয় স্থান ঃ ২০টি", R.drawable.hazratshahjalalmazarsylhet));
+        districtlist.add(new DivisionModel("মৌলভীবাজার", "দর্শনীয় স্থান ঃ ০৯টি", R.drawable.adampurbitrajkandmoulovibazar));
+        districtlist.add(new DivisionModel("শ্রীমঙ্গল", "দর্শনীয় স্থান ঃ ১১টি", R.drawable.sylhetteastate));
+        districtlist.add(new DivisionModel("সুনামগঞ্জ", "দর্শনীয় স্থান ঃ ০৮টি", R.drawable.tanguarhaorsunamganj));
+        districtlist.add(new DivisionModel("হবিগঞ্জ", "দর্শনীয় স্থান ঃ ০৪টি", R.drawable.greenlandparkchunarughathabiganj));
     }
 
     private void setBarishalDistrictlist() {
-        districtlist.add(new DivisionModel("বরিশাল", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.guthiamosque));
-        districtlist.add(new DivisionModel("পিরোজপুর", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.guavafloatingmarket));
-        districtlist.add(new DivisionModel("ঝালকাঠি", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.guavafloatingmarket));
-        districtlist.add(new DivisionModel("পটুয়াখালী", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.kuakatapatuakhai));
-        districtlist.add(new DivisionModel("ভোলা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.charkukrimukri));
-        districtlist.add(new DivisionModel("বরগুনা", "দর্শনীয় স্থান ঃ ১০টি", R.drawable.haringhatabarguna));
+        districtlist.add(new DivisionModel("বরিশাল", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.guthiamosque));
+        districtlist.add(new DivisionModel("পিরোজপুর", "দর্শনীয় স্থান ঃ ০১টি", R.drawable.guavafloatingmarket));
+        districtlist.add(new DivisionModel("ঝালকাঠি", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.guavafloatingmarket));
+        districtlist.add(new DivisionModel("পটুয়াখালী", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.kuakatapatuakhai));
+        districtlist.add(new DivisionModel("ভোলা", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.charkukrimukri));
+        districtlist.add(new DivisionModel("বরগুনা", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.haringhatabarguna));
     }
 
 }
