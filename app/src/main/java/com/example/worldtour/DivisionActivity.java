@@ -27,14 +27,14 @@ public class DivisionActivity extends AppCompatActivity {
 
         divisionRv = findViewById(R.id.divisionRv);
 
-        divisionlist.add(new DivisionModel("ঢাকা বিভাগ", "জেলা ঃ ১১টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("চট্টগ্রাম বিভাগ", "জেলা ঃ ১১টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("খুলনা বিভাগ", "জেলা ঃ ০৭টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("সিলেট বিভাগ", "জেলা ঃ ০৫টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("রাজশাহী বিভাগ", "জেলা ঃ ০৮টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("ময়মনসিংহ বিভাগ", "জেলা ঃ ০৪টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("রংপুর বিভাগ", "জেলা ঃ ০৭টি", R.drawable.coxsbazar));
-        divisionlist.add(new DivisionModel("বরিশাল বিভাগ", "জেলা ঃ ০৬টি", R.drawable.coxsbazar));
+        divisionlist.add(new DivisionModel("ঢাকা বিভাগ", "জেলা ঃ ১১টি", R.drawable.ahsanmanjil));
+        divisionlist.add(new DivisionModel("চট্টগ্রাম বিভাগ", "জেলা ঃ ১১টি", R.drawable.nilgiribandarban));
+        divisionlist.add(new DivisionModel("খুলনা বিভাগ", "জেলা ঃ ০৭টি", R.drawable.sundarban));
+        divisionlist.add(new DivisionModel("সিলেট বিভাগ", "জেলা ঃ ০৫টি", R.drawable.sylhetteastate));
+        divisionlist.add(new DivisionModel("রাজশাহী বিভাগ", "জেলা ঃ ০৮টি", R.drawable.harivangamango));
+        divisionlist.add(new DivisionModel("ময়মনসিংহ বিভাগ", "জেলা ঃ ০৪টি", R.drawable.rajarpaharherpur));
+        divisionlist.add(new DivisionModel("রংপুর বিভাগ", "জেলা ঃ ০৭টি", R.drawable.tajhatpalacerangpur));
+        divisionlist.add(new DivisionModel("বরিশাল বিভাগ", "জেলা ঃ ০৬টি", R.drawable.kuakatapatuakhai));
 
 
         adapter = new DivisionAdapter(this, divisionlist);
