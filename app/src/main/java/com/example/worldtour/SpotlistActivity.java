@@ -59,33 +59,103 @@ public class SpotlistActivity extends AppCompatActivity {
         String districtName = getIntent().getStringExtra("Districtname");
 
 
-        int[] borgunaimage = {R.drawable.horinmarajhornasitakunda, R.drawable.bibichinishahimosque};
-        //  int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
-//        int [] borgunaimage = {};
+        int[] borgunaimage = {R.drawable.haringhatabarguna, R.drawable.bibichinishahimosque};
+
+        int[] bholaimage = {R.drawable.monpuraisland, R.drawable.charkukrimukri, R.drawable.taruaislandbhola};
+
+        int[] potuakhaliimage = {R.drawable.alipurkuakata, R.drawable.charbijoykuakata, R.drawable.leburchorkuakata, R.drawable.fatrarchorkuakata, R.drawable.kuakatapatuakhai, R.drawable.sonarchorpatuakhali};
+
+        int[] jhalkathiimage = {R.drawable.saturiajamindarbari, R.drawable.kirtipashazamindarpalace, R.drawable.guavafloatingmarket};
+
+        int[] pirojpurimage = {R.drawable.guavafloatingmarket};
+
+        int[] borishalimage = {R.drawable.lakutiazamindarbaribarisal, R.drawable.oxfordmissionchurch, R.drawable.arifailmosque, R.drawable.satlabillbarisal, R.drawable.durgasagordighibarisal, R.drawable.guthiamosque};
+
+        int[] ponchogorimage = {R.drawable.banglabandhazeropoint, R.drawable.bodeshshorimondir, R.drawable.rocksmuseum, R.drawable.tetuliadakbanglow, R.drawable.kaziteaestatetetulia, R.drawable.tetuliateagarden, R.drawable.mirzapurshahimosque, R.drawable.mirzapurshahimosque};
+
+        int[] lalmonirhatimage = {R.drawable.nidariamasjidlalmonirhat, R.drawable.teestabarrage};
+
+        int[] gaibandhaimage = {R.drawable.friendshipcentergaibandha};
+
+        int[] nilfamariimage = {R.drawable.saidpurcatholicchurch, R.drawable.nilsagarnilphamari, R.drawable.chinimosquesaidpur, R.drawable.saidpurrailwayworkshop, R.drawable.teestabarrage};
+
+        int[] dinajpurimage = {R.drawable.nawabganjnationalpark, R.drawable.dipshikhametischool, R.drawable.rajbaridinajpur, R.drawable.lichigardendinajpur, R.drawable.kantajirtempledinajpur, R.drawable.noyabadmosquedinajpur, R.drawable.ramsagardinajpur, R.drawable.shopnopuripicnicspotdinajpur, R.drawable.naodangazamindarbari};
+
+        int[] kurigramimage = {R.drawable.ochingachkurigram, R.drawable.bhetarbandhzamindarbari, R.drawable.naodangazamindarbari};
+
+        int[] rangpurimage = {R.drawable.ghaghotsenaproyashbinodonpark, R.drawable.vinnyajagatrangpur, R.drawable.harivangamango, R.drawable.tajhatpalacerangpur};
+
+        int[] mymensinghimage = {R.drawable.saloraforest, R.drawable.mymensinghshoshilodge, R.drawable.meghmatvillageresort, R.drawable.alexandarcastle, R.drawable.zainulabedinart};
+
+        int[] sherpurimage = {R.drawable.ghaznileisurecentersherpur, R.drawable.rajarpaharherpur, R.drawable.bonoraniforestresort, R.drawable.sherpurchildrenspark, R.drawable.modhutilaecoparksherpur};
+
+        int[] netrokonaimage = {R.drawable.dingapotahaornetrokona, R.drawable.birishiri, R.drawable.somessoririver};
+
+        int[] jamalpurimage = {R.drawable.gandhiashramjamalpur, R.drawable.luisvillageparkresort, R.drawable.lauchaprapicnicspot};
+
+        int[] rajshahiimage = {R.drawable.varendraresearchmuseumrajshahi, R.drawable.baghamosquerajshahi, R.drawable.puthiarajbari};
+
+        int[] sylhetimage = {R.drawable.mayabonsylhet, R.drawable.ratargulswampforest, R.drawable.dibirhaorsylhet, R.drawable.sukhtararesort, R.drawable.khadimnagarrainforestsylhet, R.drawable.hazratshahparanmazar, R.drawable.kulumchorasylhet, R.drawable.lakkaturateagardensylhet, R.drawable.malnicherrateagardensylhet, R.drawable.hazratshahjalalmazarsylhet, R.drawable.songrampunjijhornawaterfalljaflongsylhet, R.drawable.jaflongsylhet, R.drawable.ratargulswampforest, R.drawable.lovachorasylhet, R.drawable.utmachorasylhet, R.drawable.lalakhaladarbepari, R.drawable.lokkhochora02, R.drawable.bishnandiferryghat, R.drawable.bholaganjsadapathorsylhet, R.drawable.panthumaiadarbepari};
+
+        int[] moulovibazarimage = {R.drawable.kalapaharmoulvibazar, R.drawable.pathariapahar, R.drawable.komolaranirdighirajnagar, R.drawable.adampurbitrajkandmoulovibazar, R.drawable.madhobkundowaterfallsylhet, R.drawable.lawacharanationalpark, R.drawable.humhumadarbepari, R.drawable.porikundawaterfall, R.drawable.hakalukihaorsylhet};
+
+        int[] srimangalimage = {R.drawable.nishorgoecoresortsreemangal, R.drawable.dusairesortspaandvillas, R.drawable.siteshbabuszoo, R.drawable.lasuboncanyonsreemangal, R.drawable.hamidurrahmansreemangal, R.drawable.teamuseumsreemangal, R.drawable.lemongardensreemangal, R.drawable.sevenlayeredtea, R.drawable.baikkabillsreemangal, R.drawable.humhumadarbepari, R.drawable.madhobpurlake};
+
+        int[] sunamgongimage = {R.drawable.paglaborojamemasjid, R.drawable.borderhaatsunamganj, R.drawable.simulbagansunamganj, R.drawable.barektilaunamganj, R.drawable.hasonrajamuseum, R.drawable.niladritekerghatsunamganj, R.drawable.tanguarhaorsunamganj, R.drawable.laurerr};
+
+        int[] hobigongimage = {R.drawable.shankarpashashahimasjid, R.drawable.greenlandparkchunarughathabiganj, R.drawable.stacharinationalparkhabiganj, R.drawable.remakalenga};
+
+        int[] khulnaimage = {R.drawable.swatchofnoground, R.drawable.sundarban, R.drawable.putniislandkhulna, R.drawable.padmabeelterkhadakhulna, R.drawable.karamjalsundarban, R.drawable.bangabondhuisland, R.drawable.dokkhindihi, R.drawable.kotkaseabeachsundarban};
+
+        int[] kustiaimage = {R.drawable.robindrokuthibarikushtia, R.drawable.lalonmelakushtia};
+
+        int[] bagerhatimage = {R.drawable.khanjahanalimazarbagerhat, R.drawable.sixdomedmosque, R.drawable.chunakholamosquebagerhat, R.drawable.dublarcharsundarban, R.drawable.bibibegnimosquebagerhat, R.drawable.chandramahalecopark, R.drawable.bagerhatzindapirmazar, R.drawable.ronobijoypurmosquebagerhat, R.drawable.bagerhatzindapirmazar, R.drawable.singairmosquebagerhat, R.drawable.monglaportbagerhat, R.drawable.karamjalsundarban, R.drawable.khanjahanalimazarbagerhat, R.drawable.kodlamathajoddhatemplebagerhat, R.drawable.sixtydomegombujmosquebagerhat, R.drawable.kotkaseabeachsundarban};
+
+        int[] jashoreimage = {R.drawable.bharatrajardeul, R.drawable.chachrashibtemple, R.drawable.jessoregodkhaliflowermarket, R.drawable.michaelmadhusudanmodhupolli};
+
+        int[] meherpurimage = {R.drawable.meherpurmujibnagar, R.drawable.amjhupineelkuthimeherpur, R.drawable.bhatparaneelkuthimeherpur};
+
+        int[] maguraimage = {R.drawable.siddheswarimathmagura, R.drawable.maguravatervita, R.drawable.puthiarajbari};
+
+        int[] satkhiraimage = {R.drawable.mozaffargardenresort, R.drawable.mandarbariaseabeachsatkhira, R.drawable.bongshipurshahimasjid};
+
+        int [] dhakaimage = {R.drawable.termukhbridge,R.drawable.chayabithiresort,R.drawable.doleswarjamemosjid,R.drawable.takamuseum,R.drawable.baiturroufmasjid,R.drawable.southtownmasjid,R.drawable.insaralirkhudervat,R.drawable.sarighat,R.drawable.upsidedown,R.drawable.shaittabanayantree,R.drawable.gurdwarananak,R.drawable.baotharuttarkhan,R.drawable.nokshipollipurbachal,R.drawable.beautyboarding,R.drawable.curzonhall,R.drawable.rosegarden,R.drawable.bangladeshnationalmuseum,R.drawable.butterflygarden,R.drawable.botanicalgarden,R.drawable.fantasykingdom,R.drawable.nandanpark,R.drawable.hatirjheel,R.drawable.nirjhorresidentialarea,R.drawable.taramosque,R.drawable.dhakeshwaritemple,R.drawable.baldhagardendhaka,R.drawable.bangladeshairforcemuseum,R.drawable.jahangirnagaruniversitymigratotybirds,R.drawable.nationalmemorialjatiosritisoudho,R.drawable.martyredintellectualsmemorialrayerbazar,R.drawable.moinotghatpadmariver,R.drawable.hosenidalandhaka,R.drawable.ahsanmanjil,R.drawable.diabariuttara,R.drawable.golapbunchgolapgram,R.drawable.bhashaninovotheatredhaka,R.drawable.lal};
+
+        int [] chittagongimage = {R.drawable.boaliatrail,R.drawable.boaliatrail,R.drawable.cafe24park,R.drawable.kumiraghatchittagong,R.drawable.horinmarajhornasitakunda,R.drawable.banshkhaliseabeach,R.drawable.sahebbibimasjidraozanchittagong,R.drawable.jamidarpalacenondirhatchittagong,R.drawable.jhorjhoritrailchittagong,R.drawable.lakeviewislandkaptai,R.drawable.medoshmunirashrom,R.drawable.guliakhaliseabeach,R.drawable.khejurtolabeachchittagong,R.drawable.sonaicharitrail,R.drawable.banshkhaliseabeach,R.drawable.chalandagiripath,R.drawable.hazarikhilwildlifeforest,R.drawable.baizidbostamimazar,R.drawable.minibangladeshkalurghat,R.drawable.sandwipchittagong,R.drawable.komoldohojhorna,R.drawable.sagolkandhajhorna,R.drawable.chondranathhill,R.drawable.batalihillchittagong,R.drawable.sohosrodharawaterfallsitakundu,R.drawable.suptodharajhornasitakunda,R.drawable.sitakunduecopark,R.drawable.mohamayalake,R.drawable.bhatiarylakechittagong,R.drawable.warcemeterychittagong,R.drawable.parkibeachchittagong,R.drawable.patengaseabeach,R.drawable.foyslake,R.drawable.napittachorawaterfall,R.drawable.khoiyachorawaterfallsjhornamirsarai};
+
+        int [] coxsbazarimage = {R.drawable.radiantfishworldcoxsbazar,R.drawable.coxsbazar,R.drawable.moheshkhalicoxsbazar,R.drawable.ramurubbergarden,R.drawable.ramucoxsbazar,R.drawable.shamlapurseabeach,R.drawable.mermaidecoresort,R.drawable.shahporiislandcoxsbazar,R.drawable.sonadiaislandmaheshkhali,R.drawable.kutubdiaislandcoxsbazar,R.drawable.himchoriwaterfallcoxsbazar,R.drawable.inanibeachcoxsbazar,R.drawable.himchoricoxzbazar,R.drawable.dulahazrasafaripark,R.drawable.cheradwipsaintmartinisland,R.drawable.saintmartinislandbangladesh,R.drawable.moheshkhaliadinathmondir};
+
+
+        int [] cumillaimage = {R.drawable.foyjunnesazamindarbari,R.drawable.magicparadisecomilla,R.drawable.dharmasagardighicomilla,R.drawable.mainamatimuseumcomilla,R.drawable.shalbanviharacomilla,R.drawable.moynamotiiworldwarsimetri};
+
+        int [] khagrachoriimage = {R.drawable.mayabinilakekhagrachari,R.drawable.thandachorakhagrachhari,R.drawable.toilafangjhorna,R.drawable.horticultureparkkhagrachhari,R.drawable.hatimuramayungkopal,R.drawable.pancharishantipuraranyakutir,R.drawable.toiduchorajhorna,R.drawable.alutilacave,R.drawable.newzelandkhagrachori};
+
+        int [] chadpurimage = {R.drawable.hilsafishchandpur,R.drawable.balakhalchowdhuribari};
+
+        int [] nowakhaliimage = {R.drawable.gandhiashramtrustnoakhali,R.drawable.bazrashahimosquenoakhali,R.drawable.nijhumdwip,R.drawable.musapurcloser};
+
+        int [] feniimage = {R.drawable.muhuriprojectfeni,R.drawable.borderhaatfeni,R.drawable.rubbergardenparshuramfeni,R.drawable.fenishamseralirbansherkellaresort,R.drawable.fenibijoysinghdighi};
+
+        int [] brammonbariaimage = {R.drawable.shawapnadip,R.drawable.arifailmosque,R.drawable.haripurzamindarbari,R.drawable.borderhaatkasba,R.drawable.ghagutiapoddobeel};
+
+        int [] lakmipurimage = {R.drawable.choralexander};
+
+        int [] rangamatiiamge = {R.drawable.hilltajresortrangamati,R.drawable.rilitelkerangamati,R.drawable.furomonpaharangamati,R.drawable.polwelparkrangamati,R.drawable.tinmukhpillar,R.drawable.ghaghrajhornarangamati,R.drawable.toilafangjhorna,R.drawable.aronnokresortrangamati,R.drawable.rongrangrangamati,R.drawable.juracharirangamati,R.drawable.kattalibilllangadurangamati,R.drawable.muppachorawaterfallbelaicharirangamati,R.drawable.komlokjhorna,R.drawable.jhulontobridgerangamati,R.drawable.dhuppanijhorna,R.drawable.pedatingting,R.drawable.raikhonglakerangamati,R.drawable.shuvolongwaterfall,R.drawable.sajekvalley,R.drawable.hajachorajhorna};
+
+        int [] bandarbanimage = {R.drawable.faipiwaterfall,R.drawable.saingprajhorna,R.drawable.thaankowainjhornajoomghor,R.drawable.boroitolitrail,R.drawable.kirstaungchimbuk,R.drawable.tuinumjhornaalikadambandarban,R.drawable.zingsiamsaitarbandarban,R.drawable.tajingdongbandarban,R.drawable.wangpajhornaalikadam,R.drawable.langlokwaterfallbandarban,R.drawable.shilabandhajhornaroangchoribandarban,R.drawable.likkhiyangwaterfallbandarban,R.drawable.sippiarsuangbandarban,R.drawable.baktlaijhornabandarban,R.drawable.naikhongchariupabanporjotonlake,R.drawable.velakhumbandarban,R.drawable.tinamjhornaalikadam,R.drawable.palongkhiyangjhorna,R.drawable.debotakhumbandarban,R.drawable.sairuhillresort,R.drawable.lamabandarban,R.drawable.prantiklake,R.drawable.marayendongalikadam,R.drawable.jogihaphong,R.drawable.baktlaijhornabandarban,R.drawable.narishyajhiriandharmanik,R.drawable.tinamjhornaalikadam,R.drawable.dimpaharalikadambandarban,R.drawable.tlabongjhorna,R.drawable.mowdokmualzowtlangbandarban,R.drawable.sakahaphongbandarban,R.drawable.satvaikhumbandarban,R.drawable.keokradongbandarban,R.drawable.chingrijhornabandarban,R.drawable.milonchoribandarban,R.drawable.amiakhumbandarban,R.drawable.chimbukhillbandarban,R.drawable.shailapropatbandarban,R.drawable.nafakhumbandarban,R.drawable.alicavealikadam,R.drawable.rupmuhuriwaterfalllikodombandarban,R.drawable.jadipauijhornabandarban,R.drawable.goldentemplebandarban,R.drawable.lungphervasaitarfallsbandarban,R.drawable.paindutinapsaitar,R.drawable.nilachalbandarban,R.drawable.meghlabandarban,R.drawable.nilgiribandarban,R.drawable.bogalakebandarban,R.drawable.rijukwaterfallbandarban,R.drawable.tindubandarban};
+
+
+
+
+
+
+
+
+
+
+        String[] rangpurspotname = {"সেনা প্রয়াশ পার্ক", "ভিন্নজগত", "হাড়িভাঙ্গা", "তাজহাট জমিদার বাড়ি"};
+
+        String[] rajshahispotname = {"বরেন্দ্র গবেষনা জাদুঘর", "বাঘা মসজিদ", "পুঠিয়া রাজবাড়ি"};
 
         String[] dhakaspotname = {"তেরমুখ ব্রিজ", "ছায়াবীথি রিসোর্ট", "দোলেশ্বার জামে মসজিদ", "টাকা জাদুঘর", "বায়তুর রউফ মসজিদ", "সাউথ টাউন মসজিদ", "ইনসার আলীর খুদের ভাত", "সারিঘাট", "আপসাইড ডাউন গ্যালারী", "ষাইট্টা বটগাছ", "গুরুদুয়ারা নানকশাহী", " বাওথার", "নকশিপল্লী", "বিউটি বোর্ডিং", "কার্জন হল", "রোজ গার্ডেন", "বাংলাদেশ জাতীয় জাদুঘর", "প্রজাপতির বাগান", "বোটানিক্যাল গার্ডেন", "ফ্যান্টাসী কিংডম", "নন্দন পার্ক", "হাতিরঝিল", "নির্ঝর আবাসিক এলাকা", "তারা মসজিদ", "ঢাকেশ্বরী মন্দির", "বলধা গার্ডেন", "বিমান বাহিনী জাদুঘর", "পাখির বাড়ি জাহাঙ্গীরনগর", "জাতীয় স্মৃতিসৌধ", "বধ্যভূমি স্মৃতিসৌধ", "নট ঘাট", "হোসেনী দালান", "আহসান মঞ্জিল", "দিয়াবাড়ি", "গোলাপ গ্রাম", "নভোথিয়েটার", "লালবাগ কেল্লা"};
 
@@ -294,7 +364,7 @@ public class SpotlistActivity extends AppCompatActivity {
 
         if (districtName.equals("ঢাকা")) {
             for (int i = 0; i < dhakaspotdetails.length; i++) {
-                spotlist.add(new DivisionModel(dhakaspotname[i], dhakaspotdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(dhakaspotname[i], dhakaspotdetails[i], dhakaimage[i]));
             }
         } else if (districtName.equals("কিশোরগঞ্জ")) {
             for (int i = 0; i < kishorgongdetails.length; i++) {
@@ -342,87 +412,87 @@ public class SpotlistActivity extends AppCompatActivity {
 
         } else if (districtName.equals("চট্টগ্রাম")) {
             for (int i = 0; i < chittagnogdetails.length; i++) {
-                spotlist.add(new DivisionModel(chittagongspotname[i], chittagnogdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(chittagongspotname[i], chittagnogdetails[i],chittagongimage[i]));
             }
         } else if (districtName.equals("কক্সবাজার")) {
             for (int i = 0; i < coxsbazardetails.length; i++) {
-                spotlist.add(new DivisionModel(coxsbazarspotname[i], coxsbazardetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(coxsbazarspotname[i], coxsbazardetails[i], coxsbazarimage[i]));
             }
         } else if (districtName.equals("কুমিল্লা")) {
             for (int i = 0; i < cumilladetails.length; i++) {
-                spotlist.add(new DivisionModel(cumillaspotname[i], cumilladetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(cumillaspotname[i], cumilladetails[i],cumillaimage[i]));
             }
         } else if (districtName.equals("খাগড়াছড়ি")) {
             for (int i = 0; i < khagrachoridetails.length; i++) {
-                spotlist.add(new DivisionModel(khagrachorispotname[i], khagrachoridetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(khagrachorispotname[i], khagrachoridetails[i], khagrachoriimage[i]));
             }
         } else if (districtName.equals("চাঁদপুর")) {
             for (int i = 0; i < chadpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(chadpurspotname[i], chapaidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(chadpurspotname[i], chapaidetails[i],chadpurimage[i]));
             }
         } else if (districtName.equals("নোয়াখালী")) {
             for (int i = 0; i < noyakhalidetails.length; i++) {
-                spotlist.add(new DivisionModel(noakhalispotname[i], noyakhalidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(noakhalispotname[i], noyakhalidetails[i], nowakhaliimage[i]));
             }
         } else if (districtName.equals("ফেনী")) {
             for (int i = 0; i < fenidetails.length; i++) {
-                spotlist.add(new DivisionModel(fenispotname[i], fenidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(fenispotname[i], fenidetails[i],feniimage[i]));
             }
         } else if (districtName.equals("ব্রাহ্মণবাড়িয়া")) {
             for (int i = 0; i < brammonbariadetails.length; i++) {
-                spotlist.add(new DivisionModel(brammonbarispotname[i], brammonbariadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(brammonbarispotname[i], brammonbariadetails[i],brammonbariaimage[i]));
             }
         } else if (districtName.equals("রাঙ্গামাটি")) {
             for (int i = 0; i < rangamatidetails.length; i++) {
-                spotlist.add(new DivisionModel(rangamatispotname[i], rangamatidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(rangamatispotname[i], rangamatidetails[i], rangamatiiamge[i]));
             }
         } else if (districtName.equals("বান্দরবান")) {
             for (int i = 0; i < bandarbandetails.length; i++) {
-                spotlist.add(new DivisionModel(bandarbanspotname[i], bandarbandetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(bandarbanspotname[i], bandarbandetails[i], bandarbanimage[i]));
             }
         } else if (districtName.equals("লক্ষ্মীপুর")) {
             for (int i = 0; i < lakhmipurdetails.length; i++) {
-                spotlist.add(new DivisionModel(lakmipurspotname[i], lakhmipurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(lakmipurspotname[i], lakhmipurdetails[i], lakmipurimage[i]));
             }
 
 
         } else if (districtName.equals("খুলনা")) {
             for (int i = 0; i < khulnadetails.length; i++) {
-                spotlist.add(new DivisionModel(khulnaspotname[i], khulnadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(khulnaspotname[i], khulnadetails[i], khulnaimage[i]));
             }
         } else if (districtName.equals("কুষ্টিয়া")) {
             for (int i = 0; i < kustiadetails.length; i++) {
-                spotlist.add(new DivisionModel(kustiaspotname[i], kustiadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(kustiaspotname[i], kustiadetails[i], kustiaimage[i]));
             }
         } else if (districtName.equals("বাগেরহাট")) {
             for (int i = 0; i < bagerhatdetails.length; i++) {
-                spotlist.add(new DivisionModel(bagerhatspotname[i], bagerhatdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(bagerhatspotname[i], bagerhatdetails[i],bagerhatimage[i]));
             }
         } else if (districtName.equals("যশোর")) {
             for (int i = 0; i < joshoredetails.length; i++) {
-                spotlist.add(new DivisionModel(joshorspotname[i], joshoredetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(joshorspotname[i], joshoredetails[i],jashoreimage[i]));
             }
         } else if (districtName.equals("মেহেরপুর")) {
             for (int i = 0; i < meherpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(meherpurspotname[i], meherpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(meherpurspotname[i], meherpurdetails[i], meherpurimage[i]));
             }
         } else if (districtName.equals("মাগুরা")) {
             for (int i = 0; i < maguradetails.length; i++) {
-                spotlist.add(new DivisionModel(maguraspotname[i], maguradetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(maguraspotname[i], maguradetails[i], maguraimage[i]));
             }
         } else if (districtName.equals("সাতক্ষীরা")) {
             for (int i = 0; i < satkhiradetails.length; i++) {
-                spotlist.add(new DivisionModel(satkhiraspotname[i], satkhiradetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(satkhiraspotname[i], satkhiradetails[i], satkhiraimage[i]));
             }
 
 
         } else if (districtName.equals("রাজশাহী")) {
             for (int i = 0; i < rajshahidetails.length; i++) {
-                spotlist.add(new DivisionModel("rajshahi spot", rajshahidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel("rajshahi spot", rajshahidetails[i], rajshahiimage[i]));
             }
         } else if (districtName.equals("চাঁপাইনবাবগঞ্জ")) {
             for (int i = 0; i < chapaidetails.length; i++) {
-                spotlist.add(new DivisionModel(chapaispotname[i], chapaidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(chapaispotname[i], chapaidetails[i], R.drawable.harivangamango));
             }
         } else if (districtName.equals("পাবনা")) {
             for (int i = 0; i < pabnadetails.length; i++) {
@@ -452,93 +522,93 @@ public class SpotlistActivity extends AppCompatActivity {
 
         } else if (districtName.equals("রংপুর")) {
             for (int i = 0; i < rangpurdetails.length; i++) {
-                spotlist.add(new DivisionModel("Rangpur spot", rangpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel("Rangpur spot", rangpurdetails[i], rangpurimage[i]));
             }
         } else if (districtName.equals("কুড়িগ্রাম")) {
             for (int i = 0; i < kurigramdetails.length; i++) {
-                spotlist.add(new DivisionModel(kurigramspotname[i], kurigramdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(kurigramspotname[i], kurigramdetails[i], kurigramimage[i]));
             }
         } else if (districtName.equals("দিনাজপুর")) {
             for (int i = 0; i < dinajpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(dinajpurspotname[i], dinajpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(dinajpurspotname[i], dinajpurdetails[i],dinajpurimage[i]));
             }
         } else if (districtName.equals("নীলফামারী")) {
             for (int i = 0; i < nilfamaridetails.length; i++) {
-                spotlist.add(new DivisionModel(nilfamarispotname[i], nilfamaridetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(nilfamarispotname[i], nilfamaridetails[i],nilfamariimage[i]));
             }
         } else if (districtName.equals("গাইবান্ধা")) {
             for (int i = 0; i < gaibandhadetails.length; i++) {
-                spotlist.add(new DivisionModel(gaibandhaspotname[i], gaibandhadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(gaibandhaspotname[i], gaibandhadetails[i],gaibandhaimage[i]));
             }
         } else if (districtName.equals("লালমনিরহাট")) {
             for (int i = 0; i < lalmonirhatdetails.length; i++) {
-                spotlist.add(new DivisionModel(lalmonirhatspotname[i], lalmonirhatdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(lalmonirhatspotname[i], lalmonirhatdetails[i], lalmonirhatimage[i]));
             }
         } else if (districtName.equals("পঞ্চগড়")) {
             for (int i = 0; i < ponchogordetails.length; i++) {
-                spotlist.add(new DivisionModel(ponchogorspotname[i], ponchogordetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(ponchogorspotname[i], ponchogordetails[i], ponchogorimage[i]));
             }
 
 
         } else if (districtName.equals("ময়মনসিংহ")) {
             for (int i = 0; i < mymensinghdetails.length; i++) {
-                spotlist.add(new DivisionModel(maymensinghspotname[i], mymensinghdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(maymensinghspotname[i], mymensinghdetails[i], mymensinghimage[i]));
             }
         } else if (districtName.equals("শেরপুর")) {
             for (int i = 0; i < sherpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(sherpurspotname[i], sherpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(sherpurspotname[i], sherpurdetails[i],sherpurimage[i]));
             }
         } else if (districtName.equals("নেত্রকোনা")) {
             for (int i = 0; i < netrokonadetails.length; i++) {
-                spotlist.add(new DivisionModel(netrokonaspotname[i], netrokonadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(netrokonaspotname[i], netrokonadetails[i], netrokonaimage[i]));
             }
         } else if (districtName.equals("জামালপুর")) {
             for (int i = 0; i < jamalpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(jamalpurspotname[i], jamalpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(jamalpurspotname[i], jamalpurdetails[i],jamalpurimage[i]));
             }
 
 
         } else if (districtName.equals("সিলেট")) {
             for (int i = 0; i < sylhetdetails.length; i++) {
-                spotlist.add(new DivisionModel(sylhetspotname[i], sylhetdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(sylhetspotname[i], sylhetdetails[i],sylhetimage[i] ));
             }
         } else if (districtName.equals("মৌলভীবাজার")) {
             for (int i = 0; i < moulovibazardetails.length; i++) {
-                spotlist.add(new DivisionModel(moulovibazarspotname[i], moulovibazardetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(moulovibazarspotname[i], moulovibazardetails[i],moulovibazarimage[i]));
             }
         } else if (districtName.equals("শ্রীমঙ্গল")) {
             for (int i = 0; i < srimangaldetails.length; i++) {
-                spotlist.add(new DivisionModel(srimongolspotname[i], srimangaldetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(srimongolspotname[i], srimangaldetails[i], srimangalimage[i]));
             }
         } else if (districtName.equals("সুনামগঞ্জ")) {
             for (int i = 0; i < sunamgongdetails.length; i++) {
-                spotlist.add(new DivisionModel(sunamgongspotname[i], sunamgongdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(sunamgongspotname[i], sunamgongdetails[i], sunamgongimage[i]));
             }
         } else if (districtName.equals("হবিগঞ্জ")) {
             for (int i = 0; i < hobigongdetails.length; i++) {
-                spotlist.add(new DivisionModel(hobigongspotname[i], hobigongdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(hobigongspotname[i], hobigongdetails[i], hobigongimage[i]));
             }
 
 
         } else if (districtName.equals("বরিশাল")) {
             for (int i = 0; i < barishaldetails.length; i++) {
-                spotlist.add(new DivisionModel(barishalspotname[i], barishaldetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(barishalspotname[i], barishaldetails[i], borishalimage[i]));
             }
         } else if (districtName.equals("পিরোজপুর")) {
             for (int i = 0; i < pirojpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(pirojpurspotname[i], pirojpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(pirojpurspotname[i], pirojpurdetails[i], pirojpurimage[i]));
             }
         } else if (districtName.equals("ঝালকাঠি")) {
             for (int i = 0; i < jhalkathidetails.length; i++) {
-                spotlist.add(new DivisionModel(jhalkathispotname[i], jhalkathidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(jhalkathispotname[i], jhalkathidetails[i], jhalkathiimage[i]));
             }
         } else if (districtName.equals("পটুয়াখালী")) {
             for (int i = 0; i < potuakhalidetails.length; i++) {
-                spotlist.add(new DivisionModel(potuakhalispotname[i], potuakhalidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(potuakhalispotname[i], potuakhalidetails[i], potuakhaliimage[i]));
             }
         } else if (districtName.equals("ভোলা")) {
             for (int i = 0; i < bholadetails.length; i++) {
-                spotlist.add(new DivisionModel(volaspotname[i], bholadetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(volaspotname[i], bholadetails[i], bholaimage[i]));
             }
         } else if (districtName.equals("বরগুনা")) {
             for (int i = 0; i < borgunadetails.length; i++) {
