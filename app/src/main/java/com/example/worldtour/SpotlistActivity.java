@@ -144,6 +144,24 @@ public class SpotlistActivity extends AppCompatActivity {
 
         int [] bandarbanimage = {R.drawable.faipiwaterfall,R.drawable.saingprajhorna,R.drawable.thaankowainjhornajoomghor,R.drawable.boroitolitrail,R.drawable.kirstaungchimbuk,R.drawable.tuinumjhornaalikadambandarban,R.drawable.zingsiamsaitarbandarban,R.drawable.tajingdongbandarban,R.drawable.wangpajhornaalikadam,R.drawable.langlokwaterfallbandarban,R.drawable.shilabandhajhornaroangchoribandarban,R.drawable.likkhiyangwaterfallbandarban,R.drawable.sippiarsuangbandarban,R.drawable.baktlaijhornabandarban,R.drawable.naikhongchariupabanporjotonlake,R.drawable.velakhumbandarban,R.drawable.tinamjhornaalikadam,R.drawable.palongkhiyangjhorna,R.drawable.debotakhumbandarban,R.drawable.sairuhillresort,R.drawable.lamabandarban,R.drawable.prantiklake,R.drawable.marayendongalikadam,R.drawable.jogihaphong,R.drawable.baktlaijhornabandarban,R.drawable.narishyajhiriandharmanik,R.drawable.tinamjhornaalikadam,R.drawable.dimpaharalikadambandarban,R.drawable.tlabongjhorna,R.drawable.mowdokmualzowtlangbandarban,R.drawable.sakahaphongbandarban,R.drawable.satvaikhumbandarban,R.drawable.keokradongbandarban,R.drawable.chingrijhornabandarban,R.drawable.milonchoribandarban,R.drawable.amiakhumbandarban,R.drawable.chimbukhillbandarban,R.drawable.shailapropatbandarban,R.drawable.nafakhumbandarban,R.drawable.alicavealikadam,R.drawable.rupmuhuriwaterfalllikodombandarban,R.drawable.jadipauijhornabandarban,R.drawable.goldentemplebandarban,R.drawable.lungphervasaitarfallsbandarban,R.drawable.paindutinapsaitar,R.drawable.nilachalbandarban,R.drawable.meghlabandarban,R.drawable.nilgiribandarban,R.drawable.bogalakebandarban,R.drawable.rijukwaterfallbandarban,R.drawable.tindubandarban};
 
+        int [] shoriotpurimage = {R.drawable.kartikpurzamindarbari};
+
+        int [] foridputimage = {R.drawable.patrailmasjidfaridpur,R.drawable.mathurapurdeulfaridpur,R.drawable.balakhalchowdhuribari};
+
+        int [] tangailimage = {R.drawable.nagarpurjomidarbari,R.drawable.twohundredonedomemosquetangail,R.drawable.korotiajomidarbari,R.drawable.dhanbarinawabpalacetangail,R.drawable.atiamosquetangail,R.drawable.rubberforestmadhupur,R.drawable.pineapplebazaramarketmodhupurtangail,R.drawable.moherajamidarbaritangail,R.drawable.jamunaresort};
+
+        int [] munsigongimage = {R.drawable.sonarangjoramothmunshiganj,R.drawable.padmahemadhammunshiganj,R.drawable.meghnavillageholidayresort,R.drawable.vaggokuljamidarbari,R.drawable.babaadommosque,R.drawable.arialbeelmunshiganj,R.drawable.hilshafishmawaferighat,R.drawable.padmaresort,R.drawable.mawaresort,R.drawable.idrakpurfort};
+
+        int [] manikgongimage = {R.drawable.betilazamindarbari,R.drawable.teotajamidarbarimanikganj,R.drawable.baliatipalacemanikganj,R.drawable.mustardoilflowermanikganj};
+
+        int [] madaripurimage = {R.drawable.kulpoddizamindarbari,R.drawable.shokunilakemadaripur,R.drawable.rajaramtemplemadaripur,R.drawable.mithapurzamindarbari,R.drawable.amjhupineelkuthimeherpur};
+
+        int [] norshingdiimage = {R.drawable.birshreshthamatiurrahmanmemorialmuseumnarsingdi,R.drawable.monumiazamindarbari,R.drawable.sonaimuriteknarsingdi,R.drawable.balapurzamindarbari,R.drawable.lokkhonsahazamindarbarinarsingdi,R.drawable.lotkongardennarsingdi,R.drawable.dreamholidayparknarsingdi,R.drawable.waribateshwarnarsingdi};
+
+        int [] narayangongimage = {R.drawable.riberenoadventurecampsite,R.drawable.bishnandiferryghat,R.drawable.sodasodizamindarpalace,R.drawable.sonakandafortnarayanganj,R.drawable.hajiganjfortnarayanganj,R.drawable.kadamrasuldargah,R.drawable.shairagardenresort,R.drawable.mayadwipnarayanganj,R.drawable.kaikertek,R.drawable.muraparajamidarbari,R.drawable.lokonathbabaashrambarodi,R.drawable.folkartcraftmuseumsonargaon,R.drawable.banglartajmahalsonargaon,R.drawable.panamcitysonargaonnarayanganj,R.drawable.zindaparknarayanganj,R.drawable.araihazarchor};
+
+        int [] gazipurimage = {R.drawable.srifaltolizamindarbarigazipur,R.drawable.sabahgardenresort,R.drawable.nokkhottrobariresort,R.drawable.shohagpalli,R.drawable.belaibillgazipur,R.drawable.chutiresort,R.drawable.anganaresortgazipur,R.drawable.rangamatiwaterfrontresortgazipur,R.drawable.gazipurbhawalnationalpark,R.drawable.gazipurbangabandhusafaripark,R.drawable.joljongolerkabbo,R.drawable.nuhashpolli};
+
 
 
 
@@ -372,39 +390,39 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("গাজীপুর")) {
             for (int i = 0; i < gazipur.length; i++) {
-                spotlist.add(new DivisionModel(gazipurspotname[i], gazipur[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(gazipurspotname[i], gazipur[i], gazipurimage[i]));
             }
         } else if (districtName.equals("নারায়ণগঞ্জ")) {
             for (int i = 0; i < narayangongdetails.length; i++) {
-                spotlist.add(new DivisionModel(nayangongspotname[i], narayangongdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(nayangongspotname[i], narayangongdetails[i], narayangongimage[i]));
             }
         } else if (districtName.equals("নরসিংদী")) {
             for (int i = 0; i < norsingdidetails.length; i++) {
-                spotlist.add(new DivisionModel(norsingdispotname[i], norsingdidetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(norsingdispotname[i], norsingdidetails[i], norshingdiimage[i]));
             }
         } else if (districtName.equals("মাদারিপুর")) {
             for (int i = 0; i < madaripurdetails.length; i++) {
-                spotlist.add(new DivisionModel(madaripurspotname[i], madaripurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(madaripurspotname[i], madaripurdetails[i],madaripurimage[i]));
             }
         } else if (districtName.equals("মানিকগঞ্জ")) {
             for (int i = 0; i < manikgongdetails.length; i++) {
-                spotlist.add(new DivisionModel(manikgongspotname[i], manikgongdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(manikgongspotname[i], manikgongdetails[i], manikgongimage[i]));
             }
         } else if (districtName.equals("মুন্সিগঞ্জ")) {
             for (int i = 0; i < munsigongdetails.length; i++) {
-                spotlist.add(new DivisionModel(munsigongspotname[i], munsigongdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(munsigongspotname[i], munsigongdetails[i], munsigongimage[i]));
             }
         } else if (districtName.equals("টাঙ্গাইল")) {
             for (int i = 0; i < tangaildetails.length; i++) {
-                spotlist.add(new DivisionModel(tangailspotname[i], tangaildetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(tangailspotname[i], tangaildetails[i], tangailimage[i]));
             }
         } else if (districtName.equals("ফরিদপুর")) {
             for (int i = 0; i < foridpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(foridpurspotname[i], foridpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(foridpurspotname[i], foridpurdetails[i], foridputimage[i]));
             }
         } else if (districtName.equals("শরীয়তপুর")) {
             for (int i = 0; i < shoriotpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(shoriotpurspotname[i], shoriotpurdetails[i], R.drawable.lal));
+                spotlist.add(new DivisionModel(shoriotpurspotname[i], shoriotpurdetails[i],shoriotpurimage[i]));
             }
 
             // Chittagong start and dhaka finished..............................
@@ -522,7 +540,7 @@ public class SpotlistActivity extends AppCompatActivity {
 
         } else if (districtName.equals("রংপুর")) {
             for (int i = 0; i < rangpurdetails.length; i++) {
-                spotlist.add(new DivisionModel("Rangpur spot", rangpurdetails[i], rangpurimage[i]));
+                spotlist.add(new DivisionModel(rangpurspotname[i], rangpurdetails[i], rangpurimage[i]));
             }
         } else if (districtName.equals("কুড়িগ্রাম")) {
             for (int i = 0; i < kurigramdetails.length; i++) {
