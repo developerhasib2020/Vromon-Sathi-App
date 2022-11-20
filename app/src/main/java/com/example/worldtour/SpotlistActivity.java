@@ -119,56 +119,70 @@ public class SpotlistActivity extends AppCompatActivity {
 
         int[] satkhiraimage = {R.drawable.mozaffargardenresort, R.drawable.mandarbariaseabeachsatkhira, R.drawable.bongshipurshahimasjid};
 
-        int [] dhakaimage = {R.drawable.termukhbridge,R.drawable.chayabithiresort,R.drawable.doleswarjamemosjid,R.drawable.takamuseum,R.drawable.baiturroufmasjid,R.drawable.southtownmasjid,R.drawable.insaralirkhudervat,R.drawable.sarighat,R.drawable.upsidedown,R.drawable.shaittabanayantree,R.drawable.gurdwarananak,R.drawable.baotharuttarkhan,R.drawable.nokshipollipurbachal,R.drawable.beautyboarding,R.drawable.curzonhall,R.drawable.rosegarden,R.drawable.bangladeshnationalmuseum,R.drawable.butterflygarden,R.drawable.botanicalgarden,R.drawable.fantasykingdom,R.drawable.nandanpark,R.drawable.hatirjheel,R.drawable.nirjhorresidentialarea,R.drawable.taramosque,R.drawable.dhakeshwaritemple,R.drawable.baldhagardendhaka,R.drawable.bangladeshairforcemuseum,R.drawable.jahangirnagaruniversitymigratotybirds,R.drawable.nationalmemorialjatiosritisoudho,R.drawable.martyredintellectualsmemorialrayerbazar,R.drawable.moinotghatpadmariver,R.drawable.hosenidalandhaka,R.drawable.ahsanmanjil,R.drawable.diabariuttara,R.drawable.golapbunchgolapgram,R.drawable.bhashaninovotheatredhaka,R.drawable.lal};
+        int[] dhakaimage = {R.drawable.termukhbridge, R.drawable.chayabithiresort, R.drawable.doleswarjamemosjid, R.drawable.takamuseum, R.drawable.baiturroufmasjid, R.drawable.southtownmasjid, R.drawable.insaralirkhudervat, R.drawable.sarighat, R.drawable.upsidedown, R.drawable.shaittabanayantree, R.drawable.gurdwarananak, R.drawable.baotharuttarkhan, R.drawable.nokshipollipurbachal, R.drawable.beautyboarding, R.drawable.curzonhall, R.drawable.rosegarden, R.drawable.bangladeshnationalmuseum, R.drawable.butterflygarden, R.drawable.botanicalgarden, R.drawable.fantasykingdom, R.drawable.nandanpark, R.drawable.hatirjheel, R.drawable.nirjhorresidentialarea, R.drawable.taramosque, R.drawable.dhakeshwaritemple, R.drawable.baldhagardendhaka, R.drawable.bangladeshairforcemuseum, R.drawable.jahangirnagaruniversitymigratotybirds, R.drawable.nationalmemorialjatiosritisoudho, R.drawable.martyredintellectualsmemorialrayerbazar, R.drawable.moinotghatpadmariver, R.drawable.hosenidalandhaka, R.drawable.ahsanmanjil, R.drawable.diabariuttara, R.drawable.golapbunchgolapgram, R.drawable.bhashaninovotheatredhaka, R.drawable.lal};
 
-        int [] chittagongimage = {R.drawable.boaliatrail,R.drawable.boaliatrail,R.drawable.cafe24park,R.drawable.kumiraghatchittagong,R.drawable.horinmarajhornasitakunda,R.drawable.banshkhaliseabeach,R.drawable.sahebbibimasjidraozanchittagong,R.drawable.jamidarpalacenondirhatchittagong,R.drawable.jhorjhoritrailchittagong,R.drawable.lakeviewislandkaptai,R.drawable.medoshmunirashrom,R.drawable.guliakhaliseabeach,R.drawable.khejurtolabeachchittagong,R.drawable.sonaicharitrail,R.drawable.banshkhaliseabeach,R.drawable.chalandagiripath,R.drawable.hazarikhilwildlifeforest,R.drawable.baizidbostamimazar,R.drawable.minibangladeshkalurghat,R.drawable.sandwipchittagong,R.drawable.komoldohojhorna,R.drawable.sagolkandhajhorna,R.drawable.chondranathhill,R.drawable.batalihillchittagong,R.drawable.sohosrodharawaterfallsitakundu,R.drawable.suptodharajhornasitakunda,R.drawable.sitakunduecopark,R.drawable.mohamayalake,R.drawable.bhatiarylakechittagong,R.drawable.warcemeterychittagong,R.drawable.parkibeachchittagong,R.drawable.patengaseabeach,R.drawable.foyslake,R.drawable.napittachorawaterfall,R.drawable.khoiyachorawaterfallsjhornamirsarai};
+        int[] chittagongimage = {R.drawable.boaliatrail, R.drawable.boaliatrail, R.drawable.cafe24park, R.drawable.kumiraghatchittagong, R.drawable.horinmarajhornasitakunda, R.drawable.banshkhaliseabeach, R.drawable.sahebbibimasjidraozanchittagong, R.drawable.jamidarpalacenondirhatchittagong, R.drawable.jhorjhoritrailchittagong, R.drawable.lakeviewislandkaptai, R.drawable.medoshmunirashrom, R.drawable.guliakhaliseabeach, R.drawable.khejurtolabeachchittagong, R.drawable.sonaicharitrail, R.drawable.banshkhaliseabeach, R.drawable.chalandagiripath, R.drawable.hazarikhilwildlifeforest, R.drawable.baizidbostamimazar, R.drawable.minibangladeshkalurghat, R.drawable.sandwipchittagong, R.drawable.komoldohojhorna, R.drawable.sagolkandhajhorna, R.drawable.chondranathhill, R.drawable.batalihillchittagong, R.drawable.sohosrodharawaterfallsitakundu, R.drawable.suptodharajhornasitakunda, R.drawable.sitakunduecopark, R.drawable.mohamayalake, R.drawable.bhatiarylakechittagong, R.drawable.warcemeterychittagong, R.drawable.parkibeachchittagong, R.drawable.patengaseabeach, R.drawable.foyslake, R.drawable.napittachorawaterfall, R.drawable.khoiyachorawaterfallsjhornamirsarai};
 
-        int [] coxsbazarimage = {R.drawable.radiantfishworldcoxsbazar,R.drawable.coxsbazar,R.drawable.moheshkhalicoxsbazar,R.drawable.ramurubbergarden,R.drawable.ramucoxsbazar,R.drawable.shamlapurseabeach,R.drawable.mermaidecoresort,R.drawable.shahporiislandcoxsbazar,R.drawable.sonadiaislandmaheshkhali,R.drawable.kutubdiaislandcoxsbazar,R.drawable.himchoriwaterfallcoxsbazar,R.drawable.inanibeachcoxsbazar,R.drawable.himchoricoxzbazar,R.drawable.dulahazrasafaripark,R.drawable.cheradwipsaintmartinisland,R.drawable.saintmartinislandbangladesh,R.drawable.moheshkhaliadinathmondir};
-
-
-        int [] cumillaimage = {R.drawable.foyjunnesazamindarbari,R.drawable.magicparadisecomilla,R.drawable.dharmasagardighicomilla,R.drawable.mainamatimuseumcomilla,R.drawable.shalbanviharacomilla,R.drawable.moynamotiiworldwarsimetri};
-
-        int [] khagrachoriimage = {R.drawable.mayabinilakekhagrachari,R.drawable.thandachorakhagrachhari,R.drawable.toilafangjhorna,R.drawable.horticultureparkkhagrachhari,R.drawable.hatimuramayungkopal,R.drawable.pancharishantipuraranyakutir,R.drawable.toiduchorajhorna,R.drawable.alutilacave,R.drawable.newzelandkhagrachori};
-
-        int [] chadpurimage = {R.drawable.hilsafishchandpur,R.drawable.balakhalchowdhuribari};
-
-        int [] nowakhaliimage = {R.drawable.gandhiashramtrustnoakhali,R.drawable.bazrashahimosquenoakhali,R.drawable.nijhumdwip,R.drawable.musapurcloser};
-
-        int [] feniimage = {R.drawable.muhuriprojectfeni,R.drawable.borderhaatfeni,R.drawable.rubbergardenparshuramfeni,R.drawable.fenishamseralirbansherkellaresort,R.drawable.fenibijoysinghdighi};
-
-        int [] brammonbariaimage = {R.drawable.shawapnadip,R.drawable.arifailmosque,R.drawable.haripurzamindarbari,R.drawable.borderhaatkasba,R.drawable.ghagutiapoddobeel};
-
-        int [] lakmipurimage = {R.drawable.choralexander};
-
-        int [] rangamatiiamge = {R.drawable.hilltajresortrangamati,R.drawable.rilitelkerangamati,R.drawable.furomonpaharangamati,R.drawable.polwelparkrangamati,R.drawable.tinmukhpillar,R.drawable.ghaghrajhornarangamati,R.drawable.toilafangjhorna,R.drawable.aronnokresortrangamati,R.drawable.rongrangrangamati,R.drawable.juracharirangamati,R.drawable.kattalibilllangadurangamati,R.drawable.muppachorawaterfallbelaicharirangamati,R.drawable.komlokjhorna,R.drawable.jhulontobridgerangamati,R.drawable.dhuppanijhorna,R.drawable.pedatingting,R.drawable.raikhonglakerangamati,R.drawable.shuvolongwaterfall,R.drawable.sajekvalley,R.drawable.hajachorajhorna};
-
-        int [] bandarbanimage = {R.drawable.faipiwaterfall,R.drawable.saingprajhorna,R.drawable.thaankowainjhornajoomghor,R.drawable.boroitolitrail,R.drawable.kirstaungchimbuk,R.drawable.tuinumjhornaalikadambandarban,R.drawable.zingsiamsaitarbandarban,R.drawable.tajingdongbandarban,R.drawable.wangpajhornaalikadam,R.drawable.langlokwaterfallbandarban,R.drawable.shilabandhajhornaroangchoribandarban,R.drawable.likkhiyangwaterfallbandarban,R.drawable.sippiarsuangbandarban,R.drawable.baktlaijhornabandarban,R.drawable.naikhongchariupabanporjotonlake,R.drawable.velakhumbandarban,R.drawable.tinamjhornaalikadam,R.drawable.palongkhiyangjhorna,R.drawable.debotakhumbandarban,R.drawable.sairuhillresort,R.drawable.lamabandarban,R.drawable.prantiklake,R.drawable.marayendongalikadam,R.drawable.jogihaphong,R.drawable.baktlaijhornabandarban,R.drawable.narishyajhiriandharmanik,R.drawable.tinamjhornaalikadam,R.drawable.dimpaharalikadambandarban,R.drawable.tlabongjhorna,R.drawable.mowdokmualzowtlangbandarban,R.drawable.sakahaphongbandarban,R.drawable.satvaikhumbandarban,R.drawable.keokradongbandarban,R.drawable.chingrijhornabandarban,R.drawable.milonchoribandarban,R.drawable.amiakhumbandarban,R.drawable.chimbukhillbandarban,R.drawable.shailapropatbandarban,R.drawable.nafakhumbandarban,R.drawable.alicavealikadam,R.drawable.rupmuhuriwaterfalllikodombandarban,R.drawable.jadipauijhornabandarban,R.drawable.goldentemplebandarban,R.drawable.lungphervasaitarfallsbandarban,R.drawable.paindutinapsaitar,R.drawable.nilachalbandarban,R.drawable.meghlabandarban,R.drawable.nilgiribandarban,R.drawable.bogalakebandarban,R.drawable.rijukwaterfallbandarban,R.drawable.tindubandarban};
-
-        int [] shoriotpurimage = {R.drawable.kartikpurzamindarbari};
-
-        int [] foridputimage = {R.drawable.patrailmasjidfaridpur,R.drawable.mathurapurdeulfaridpur,R.drawable.balakhalchowdhuribari};
-
-        int [] tangailimage = {R.drawable.nagarpurjomidarbari,R.drawable.twohundredonedomemosquetangail,R.drawable.korotiajomidarbari,R.drawable.dhanbarinawabpalacetangail,R.drawable.atiamosquetangail,R.drawable.rubberforestmadhupur,R.drawable.pineapplebazaramarketmodhupurtangail,R.drawable.moherajamidarbaritangail,R.drawable.jamunaresort};
-
-        int [] munsigongimage = {R.drawable.sonarangjoramothmunshiganj,R.drawable.padmahemadhammunshiganj,R.drawable.meghnavillageholidayresort,R.drawable.vaggokuljamidarbari,R.drawable.babaadommosque,R.drawable.arialbeelmunshiganj,R.drawable.hilshafishmawaferighat,R.drawable.padmaresort,R.drawable.mawaresort,R.drawable.idrakpurfort};
-
-        int [] manikgongimage = {R.drawable.betilazamindarbari,R.drawable.teotajamidarbarimanikganj,R.drawable.baliatipalacemanikganj,R.drawable.mustardoilflowermanikganj};
-
-        int [] madaripurimage = {R.drawable.kulpoddizamindarbari,R.drawable.shokunilakemadaripur,R.drawable.rajaramtemplemadaripur,R.drawable.mithapurzamindarbari,R.drawable.amjhupineelkuthimeherpur};
-
-        int [] norshingdiimage = {R.drawable.birshreshthamatiurrahmanmemorialmuseumnarsingdi,R.drawable.monumiazamindarbari,R.drawable.sonaimuriteknarsingdi,R.drawable.balapurzamindarbari,R.drawable.lokkhonsahazamindarbarinarsingdi,R.drawable.lotkongardennarsingdi,R.drawable.dreamholidayparknarsingdi,R.drawable.waribateshwarnarsingdi};
-
-        int [] narayangongimage = {R.drawable.riberenoadventurecampsite,R.drawable.bishnandiferryghat,R.drawable.sodasodizamindarpalace,R.drawable.sonakandafortnarayanganj,R.drawable.hajiganjfortnarayanganj,R.drawable.kadamrasuldargah,R.drawable.shairagardenresort,R.drawable.mayadwipnarayanganj,R.drawable.kaikertek,R.drawable.muraparajamidarbari,R.drawable.lokonathbabaashrambarodi,R.drawable.folkartcraftmuseumsonargaon,R.drawable.banglartajmahalsonargaon,R.drawable.panamcitysonargaonnarayanganj,R.drawable.zindaparknarayanganj,R.drawable.araihazarchor};
-
-        int [] gazipurimage = {R.drawable.srifaltolizamindarbarigazipur,R.drawable.sabahgardenresort,R.drawable.nokkhottrobariresort,R.drawable.shohagpalli,R.drawable.belaibillgazipur,R.drawable.chutiresort,R.drawable.anganaresortgazipur,R.drawable.rangamatiwaterfrontresortgazipur,R.drawable.gazipurbhawalnationalpark,R.drawable.gazipurbangabandhusafaripark,R.drawable.joljongolerkabbo,R.drawable.nuhashpolli};
+        int[] coxsbazarimage = {R.drawable.radiantfishworldcoxsbazar, R.drawable.coxsbazar, R.drawable.moheshkhalicoxsbazar, R.drawable.ramurubbergarden, R.drawable.ramucoxsbazar, R.drawable.shamlapurseabeach, R.drawable.mermaidecoresort, R.drawable.shahporiislandcoxsbazar, R.drawable.sonadiaislandmaheshkhali, R.drawable.kutubdiaislandcoxsbazar, R.drawable.himchoriwaterfallcoxsbazar, R.drawable.inanibeachcoxsbazar, R.drawable.himchoricoxzbazar, R.drawable.dulahazrasafaripark, R.drawable.cheradwipsaintmartinisland, R.drawable.saintmartinislandbangladesh, R.drawable.moheshkhaliadinathmondir};
 
 
+        int[] cumillaimage = {R.drawable.foyjunnesazamindarbari, R.drawable.magicparadisecomilla, R.drawable.dharmasagardighicomilla, R.drawable.mainamatimuseumcomilla, R.drawable.shalbanviharacomilla, R.drawable.moynamotiiworldwarsimetri};
+
+        int[] khagrachoriimage = {R.drawable.mayabinilakekhagrachari, R.drawable.thandachorakhagrachhari, R.drawable.toilafangjhorna, R.drawable.horticultureparkkhagrachhari, R.drawable.hatimuramayungkopal, R.drawable.pancharishantipuraranyakutir, R.drawable.toiduchorajhorna, R.drawable.alutilacave, R.drawable.newzelandkhagrachori};
+
+        int[] chadpurimage = {R.drawable.hilsafishchandpur, R.drawable.balakhalchowdhuribari};
+
+        int[] nowakhaliimage = {R.drawable.gandhiashramtrustnoakhali, R.drawable.bazrashahimosquenoakhali, R.drawable.nijhumdwip, R.drawable.musapurcloser};
+
+        int[] feniimage = {R.drawable.muhuriprojectfeni, R.drawable.borderhaatfeni, R.drawable.rubbergardenparshuramfeni, R.drawable.fenishamseralirbansherkellaresort, R.drawable.fenibijoysinghdighi};
+
+        int[] brammonbariaimage = {R.drawable.shawapnadip, R.drawable.arifailmosque, R.drawable.haripurzamindarbari, R.drawable.borderhaatkasba, R.drawable.ghagutiapoddobeel};
+
+        int[] lakmipurimage = {R.drawable.choralexander};
+
+        int[] rangamatiiamge = {R.drawable.hilltajresortrangamati, R.drawable.rilitelkerangamati, R.drawable.furomonpaharangamati, R.drawable.polwelparkrangamati, R.drawable.tinmukhpillar, R.drawable.ghaghrajhornarangamati, R.drawable.toilafangjhorna, R.drawable.aronnokresortrangamati, R.drawable.rongrangrangamati, R.drawable.juracharirangamati, R.drawable.kattalibilllangadurangamati, R.drawable.muppachorawaterfallbelaicharirangamati, R.drawable.komlokjhorna, R.drawable.jhulontobridgerangamati, R.drawable.dhuppanijhorna, R.drawable.pedatingting, R.drawable.raikhonglakerangamati, R.drawable.shuvolongwaterfall, R.drawable.sajekvalley, R.drawable.hajachorajhorna};
+
+        int[] bandarbanimage = {R.drawable.faipiwaterfall, R.drawable.saingprajhorna, R.drawable.thaankowainjhornajoomghor, R.drawable.boroitolitrail, R.drawable.kirstaungchimbuk, R.drawable.tuinumjhornaalikadambandarban, R.drawable.zingsiamsaitarbandarban, R.drawable.tajingdongbandarban, R.drawable.wangpajhornaalikadam, R.drawable.langlokwaterfallbandarban, R.drawable.shilabandhajhornaroangchoribandarban, R.drawable.likkhiyangwaterfallbandarban, R.drawable.sippiarsuangbandarban, R.drawable.baktlaijhornabandarban, R.drawable.naikhongchariupabanporjotonlake, R.drawable.velakhumbandarban, R.drawable.tinamjhornaalikadam, R.drawable.palongkhiyangjhorna, R.drawable.debotakhumbandarban, R.drawable.sairuhillresort, R.drawable.lamabandarban, R.drawable.prantiklake, R.drawable.marayendongalikadam, R.drawable.jogihaphong, R.drawable.baktlaijhornabandarban, R.drawable.narishyajhiriandharmanik, R.drawable.tinamjhornaalikadam, R.drawable.dimpaharalikadambandarban, R.drawable.tlabongjhorna, R.drawable.mowdokmualzowtlangbandarban, R.drawable.sakahaphongbandarban, R.drawable.satvaikhumbandarban, R.drawable.keokradongbandarban, R.drawable.chingrijhornabandarban, R.drawable.milonchoribandarban, R.drawable.amiakhumbandarban, R.drawable.chimbukhillbandarban, R.drawable.shailapropatbandarban, R.drawable.nafakhumbandarban, R.drawable.alicavealikadam, R.drawable.rupmuhuriwaterfalllikodombandarban, R.drawable.jadipauijhornabandarban, R.drawable.goldentemplebandarban, R.drawable.lungphervasaitarfallsbandarban, R.drawable.paindutinapsaitar, R.drawable.nilachalbandarban, R.drawable.meghlabandarban, R.drawable.nilgiribandarban, R.drawable.bogalakebandarban, R.drawable.rijukwaterfallbandarban, R.drawable.tindubandarban};
+
+        int[] shoriotpurimage = {R.drawable.kartikpurzamindarbari};
+
+        int[] foridputimage = {R.drawable.patrailmasjidfaridpur, R.drawable.mathurapurdeulfaridpur, R.drawable.balakhalchowdhuribari};
+
+        int[] tangailimage = {R.drawable.nagarpurjomidarbari, R.drawable.twohundredonedomemosquetangail, R.drawable.korotiajomidarbari, R.drawable.dhanbarinawabpalacetangail, R.drawable.atiamosquetangail, R.drawable.rubberforestmadhupur, R.drawable.pineapplebazaramarketmodhupurtangail, R.drawable.moherajamidarbaritangail, R.drawable.jamunaresort};
+
+        int[] munsigongimage = {R.drawable.sonarangjoramothmunshiganj, R.drawable.padmahemadhammunshiganj, R.drawable.meghnavillageholidayresort, R.drawable.vaggokuljamidarbari, R.drawable.babaadommosque, R.drawable.arialbeelmunshiganj, R.drawable.hilshafishmawaferighat, R.drawable.padmaresort, R.drawable.mawaresort, R.drawable.idrakpurfort};
+
+        int[] manikgongimage = {R.drawable.betilazamindarbari, R.drawable.teotajamidarbarimanikganj, R.drawable.baliatipalacemanikganj, R.drawable.mustardoilflowermanikganj};
+
+        int[] madaripurimage = {R.drawable.kulpoddizamindarbari, R.drawable.shokunilakemadaripur, R.drawable.rajaramtemplemadaripur, R.drawable.mithapurzamindarbari, R.drawable.amjhupineelkuthimeherpur};
+
+        int[] norshingdiimage = {R.drawable.birshreshthamatiurrahmanmemorialmuseumnarsingdi, R.drawable.monumiazamindarbari, R.drawable.sonaimuriteknarsingdi, R.drawable.balapurzamindarbari, R.drawable.lokkhonsahazamindarbarinarsingdi, R.drawable.lotkongardennarsingdi, R.drawable.dreamholidayparknarsingdi, R.drawable.waribateshwarnarsingdi};
+
+        int[] narayangongimage = {R.drawable.riberenoadventurecampsite, R.drawable.bishnandiferryghat, R.drawable.sodasodizamindarpalace, R.drawable.sonakandafortnarayanganj, R.drawable.hajiganjfortnarayanganj, R.drawable.kadamrasuldargah, R.drawable.shairagardenresort, R.drawable.mayadwipnarayanganj, R.drawable.kaikertek, R.drawable.muraparajamidarbari, R.drawable.lokonathbabaashrambarodi, R.drawable.folkartcraftmuseumsonargaon, R.drawable.banglartajmahalsonargaon, R.drawable.panamcitysonargaonnarayanganj, R.drawable.zindaparknarayanganj, R.drawable.araihazarchor};
+
+        int[] gazipurimage = {R.drawable.srifaltolizamindarbarigazipur, R.drawable.sabahgardenresort, R.drawable.nokkhottrobariresort, R.drawable.shohagpalli, R.drawable.belaibillgazipur, R.drawable.chutiresort, R.drawable.anganaresortgazipur, R.drawable.rangamatiwaterfrontresortgazipur, R.drawable.gazipurbhawalnationalpark, R.drawable.gazipurbangabandhusafaripark, R.drawable.joljongolerkabbo, R.drawable.nuhashpolli};
 
 
+// india image array setup
+
+        int[] dargilingimage = {};
+        int[] sikkimimage = {};
+        int[] himacholimage = {};
+        int[] kashmirimage = {};
+        int[] meghaloyimage = {};
+        int[] uttorakhandimage = {};
 
 
+        // india spotname
 
+        String[] dargilingspotname = {};
+        String[] sikkimspotname = {};
+        String[] himacholspotname = {};
+        String[] kashmirspotname = {};
+        String[] meghaloyspotname = {};
+        String[] uttorakhandspotname = {};
 
+        // .........................................
 
 
         String[] rangpurspotname = {"সেনা প্রয়াশ পার্ক", "ভিন্নজগত", "হাড়িভাঙ্গা", "তাজহাট জমিদার বাড়ি"};
@@ -291,6 +305,19 @@ public class SpotlistActivity extends AppCompatActivity {
         String[] sirajgongspotname = {"চায়না বাঁধ", " হাটিকুমরুলের নবরত্ন মন্দির", "চলন বিল"};
 
 
+        // india spotname ................................................................................
+
+        String [] nepalspotname = {"ল্যাংট্যাং ভ্যালী ট্রেক","তিলিচো লেক","পুন হিল ট্রেক","চিন্তাফু ট্রেক "," চা রাজ্য ইল্ম ","লুম্বিনি","জমসম","ধুলিখেল","ভক্তপুর","নাগরকোট","অন্নপুর্না রেঞ্জ"};
+
+        String [] thailangspotname = {"বাং ক্রুত", "কো হং আইল্যান্ড", "কোহ লান্তা","ফু থাপ বোয়েক ","ক্রাবি","কোহ সামুই দ্বীপ","চিয়াং মাই","ফুকেট","দামনিওন সাদুয়াক ফ্লোটিং মার্কেট","ব্যাংকক","পাতায়া"};
+
+        String [] bhutanspotname = {"ফোবজিকা ভ্যালি","ওয়াংদি ফোদরং","চেলে লা পাস","পারো","বুমথাং","থিম্পু"};
+
+        String [] srilankaspotname = {"ক্যান্ডি","কলম্বো","অনুরাধাপুর","সিগিরিয়া রক","এডামস পিক"};
+
+        String [] indonetiaspotname = {"উবুদ","সুলুবান বীচ, বালি","গিলি আইল্যান্ড’স","বাটাম দ্বীপ","বালি"};
+
+
         String[] dhakaspotdetails = getResources().getStringArray(R.array.dhaka_spot);
         String[] kishorgongdetails = getResources().getStringArray(R.array.kishorgong_spot_details);
         String[] gazipur = getResources().getStringArray(R.array.gazipur_spot_details);
@@ -377,6 +404,26 @@ public class SpotlistActivity extends AppCompatActivity {
         String[] bholadetails = getResources().getStringArray(R.array.bhola_spot_details);
         String[] borgunadetails = getResources().getStringArray(R.array.borguna_spot_details);
 
+
+        // india spot details
+
+        String[] dargilingspotdetails = getResources().getStringArray(R.array.dargiling_spot_details);
+        String[] sikkimspotdetails = getResources().getStringArray(R.array.sikkim_spot_details);
+        String[] himacholspotdetails = getResources().getStringArray(R.array.himachol_spot_details);
+        String[] kashmirspotdetails = getResources().getStringArray(R.array.kashmir_spot_details);
+        String[] meghaloyspotdetails = getResources().getStringArray(R.array.meghaloy_spot_details);
+        String[] uttorakhandspotdetails = getResources().getStringArray(R.array.uttorakhand_spot_details);
+
+
+        // world tour details setup
+
+        String[] nepalspotdetails = getResources().getStringArray(R.array.nepal_spot_details);
+        String[] thailandspotdetails = getResources().getStringArray(R.array.thailand_spot_details);
+        String[] vutanspotdetails = getResources().getStringArray(R.array.bhutan_spot_details);
+        String[] srilankaspotdetails = getResources().getStringArray(R.array.srilanka_spot_details);
+        String[] indonesiaspotdetails = getResources().getStringArray(R.array.indonesia_spot_details);
+
+
         // all details finished.............................
 
 
@@ -402,7 +449,7 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("মাদারিপুর")) {
             for (int i = 0; i < madaripurdetails.length; i++) {
-                spotlist.add(new DivisionModel(madaripurspotname[i], madaripurdetails[i],madaripurimage[i]));
+                spotlist.add(new DivisionModel(madaripurspotname[i], madaripurdetails[i], madaripurimage[i]));
             }
         } else if (districtName.equals("মানিকগঞ্জ")) {
             for (int i = 0; i < manikgongdetails.length; i++) {
@@ -422,7 +469,7 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("শরীয়তপুর")) {
             for (int i = 0; i < shoriotpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(shoriotpurspotname[i], shoriotpurdetails[i],shoriotpurimage[i]));
+                spotlist.add(new DivisionModel(shoriotpurspotname[i], shoriotpurdetails[i], shoriotpurimage[i]));
             }
 
             // Chittagong start and dhaka finished..............................
@@ -430,7 +477,7 @@ public class SpotlistActivity extends AppCompatActivity {
 
         } else if (districtName.equals("চট্টগ্রাম")) {
             for (int i = 0; i < chittagnogdetails.length; i++) {
-                spotlist.add(new DivisionModel(chittagongspotname[i], chittagnogdetails[i],chittagongimage[i]));
+                spotlist.add(new DivisionModel(chittagongspotname[i], chittagnogdetails[i], chittagongimage[i]));
             }
         } else if (districtName.equals("কক্সবাজার")) {
             for (int i = 0; i < coxsbazardetails.length; i++) {
@@ -438,7 +485,7 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("কুমিল্লা")) {
             for (int i = 0; i < cumilladetails.length; i++) {
-                spotlist.add(new DivisionModel(cumillaspotname[i], cumilladetails[i],cumillaimage[i]));
+                spotlist.add(new DivisionModel(cumillaspotname[i], cumilladetails[i], cumillaimage[i]));
             }
         } else if (districtName.equals("খাগড়াছড়ি")) {
             for (int i = 0; i < khagrachoridetails.length; i++) {
@@ -446,7 +493,7 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("চাঁদপুর")) {
             for (int i = 0; i < chadpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(chadpurspotname[i], chapaidetails[i],chadpurimage[i]));
+                spotlist.add(new DivisionModel(chadpurspotname[i], chapaidetails[i], chadpurimage[i]));
             }
         } else if (districtName.equals("নোয়াখালী")) {
             for (int i = 0; i < noyakhalidetails.length; i++) {
@@ -454,11 +501,11 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("ফেনী")) {
             for (int i = 0; i < fenidetails.length; i++) {
-                spotlist.add(new DivisionModel(fenispotname[i], fenidetails[i],feniimage[i]));
+                spotlist.add(new DivisionModel(fenispotname[i], fenidetails[i], feniimage[i]));
             }
         } else if (districtName.equals("ব্রাহ্মণবাড়িয়া")) {
             for (int i = 0; i < brammonbariadetails.length; i++) {
-                spotlist.add(new DivisionModel(brammonbarispotname[i], brammonbariadetails[i],brammonbariaimage[i]));
+                spotlist.add(new DivisionModel(brammonbarispotname[i], brammonbariadetails[i], brammonbariaimage[i]));
             }
         } else if (districtName.equals("রাঙ্গামাটি")) {
             for (int i = 0; i < rangamatidetails.length; i++) {
@@ -473,6 +520,8 @@ public class SpotlistActivity extends AppCompatActivity {
                 spotlist.add(new DivisionModel(lakmipurspotname[i], lakhmipurdetails[i], lakmipurimage[i]));
             }
 
+// ==========================================================================
+
 
         } else if (districtName.equals("খুলনা")) {
             for (int i = 0; i < khulnadetails.length; i++) {
@@ -484,11 +533,11 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("বাগেরহাট")) {
             for (int i = 0; i < bagerhatdetails.length; i++) {
-                spotlist.add(new DivisionModel(bagerhatspotname[i], bagerhatdetails[i],bagerhatimage[i]));
+                spotlist.add(new DivisionModel(bagerhatspotname[i], bagerhatdetails[i], bagerhatimage[i]));
             }
         } else if (districtName.equals("যশোর")) {
             for (int i = 0; i < joshoredetails.length; i++) {
-                spotlist.add(new DivisionModel(joshorspotname[i], joshoredetails[i],jashoreimage[i]));
+                spotlist.add(new DivisionModel(joshorspotname[i], joshoredetails[i], jashoreimage[i]));
             }
         } else if (districtName.equals("মেহেরপুর")) {
             for (int i = 0; i < meherpurdetails.length; i++) {
@@ -503,7 +552,7 @@ public class SpotlistActivity extends AppCompatActivity {
                 spotlist.add(new DivisionModel(satkhiraspotname[i], satkhiradetails[i], satkhiraimage[i]));
             }
 
-
+//=============================================================================================
         } else if (districtName.equals("রাজশাহী")) {
             for (int i = 0; i < rajshahidetails.length; i++) {
                 spotlist.add(new DivisionModel(rajshahispotname[i], rajshahidetails[i], rajshahiimage[i]));
@@ -536,7 +585,7 @@ public class SpotlistActivity extends AppCompatActivity {
             for (int i = 0; i < nougaondetils.length; i++) {
                 spotlist.add(new DivisionModel(naugaspotname[i], nougaondetils[i], R.drawable.lal));
             }
-
+//------------------------------------------------------------------------------------------------------------
 
         } else if (districtName.equals("রংপুর")) {
             for (int i = 0; i < rangpurdetails.length; i++) {
@@ -548,15 +597,15 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("দিনাজপুর")) {
             for (int i = 0; i < dinajpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(dinajpurspotname[i], dinajpurdetails[i],dinajpurimage[i]));
+                spotlist.add(new DivisionModel(dinajpurspotname[i], dinajpurdetails[i], dinajpurimage[i]));
             }
         } else if (districtName.equals("নীলফামারী")) {
             for (int i = 0; i < nilfamaridetails.length; i++) {
-                spotlist.add(new DivisionModel(nilfamarispotname[i], nilfamaridetails[i],nilfamariimage[i]));
+                spotlist.add(new DivisionModel(nilfamarispotname[i], nilfamaridetails[i], nilfamariimage[i]));
             }
         } else if (districtName.equals("গাইবান্ধা")) {
             for (int i = 0; i < gaibandhadetails.length; i++) {
-                spotlist.add(new DivisionModel(gaibandhaspotname[i], gaibandhadetails[i],gaibandhaimage[i]));
+                spotlist.add(new DivisionModel(gaibandhaspotname[i], gaibandhadetails[i], gaibandhaimage[i]));
             }
         } else if (districtName.equals("লালমনিরহাট")) {
             for (int i = 0; i < lalmonirhatdetails.length; i++) {
@@ -574,7 +623,7 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("শেরপুর")) {
             for (int i = 0; i < sherpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(sherpurspotname[i], sherpurdetails[i],sherpurimage[i]));
+                spotlist.add(new DivisionModel(sherpurspotname[i], sherpurdetails[i], sherpurimage[i]));
             }
         } else if (districtName.equals("নেত্রকোনা")) {
             for (int i = 0; i < netrokonadetails.length; i++) {
@@ -582,17 +631,17 @@ public class SpotlistActivity extends AppCompatActivity {
             }
         } else if (districtName.equals("জামালপুর")) {
             for (int i = 0; i < jamalpurdetails.length; i++) {
-                spotlist.add(new DivisionModel(jamalpurspotname[i], jamalpurdetails[i],jamalpurimage[i]));
+                spotlist.add(new DivisionModel(jamalpurspotname[i], jamalpurdetails[i], jamalpurimage[i]));
             }
 
 
         } else if (districtName.equals("সিলেট")) {
             for (int i = 0; i < sylhetdetails.length; i++) {
-                spotlist.add(new DivisionModel(sylhetspotname[i], sylhetdetails[i],sylhetimage[i] ));
+                spotlist.add(new DivisionModel(sylhetspotname[i], sylhetdetails[i], sylhetimage[i]));
             }
         } else if (districtName.equals("মৌলভীবাজার")) {
             for (int i = 0; i < moulovibazardetails.length; i++) {
-                spotlist.add(new DivisionModel(moulovibazarspotname[i], moulovibazardetails[i],moulovibazarimage[i]));
+                spotlist.add(new DivisionModel(moulovibazarspotname[i], moulovibazardetails[i], moulovibazarimage[i]));
             }
         } else if (districtName.equals("শ্রীমঙ্গল")) {
             for (int i = 0; i < srimangaldetails.length; i++) {
@@ -633,5 +682,60 @@ public class SpotlistActivity extends AppCompatActivity {
                 spotlist.add(new DivisionModel(borgunaspotname[i], borgunadetails[i], borgunaimage[i]));
             }
         }
+
+        // india setup...................................................
+
+        else if (districtName.equals("দার্জিলিং")) {
+            for (int i = 0; i < dargilingspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", dargilingspotdetails[i], R.drawable.darjeelingindia));
+            }
+        } else if (districtName.equals("সিকিম")) {
+            for (int i = 0; i < sikkimspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", sikkimspotdetails[i], R.drawable.sikkimteagarden));
+            }
+        } else if (districtName.equals("হিমাচল")) {
+            for (int i = 0; i < himacholspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", himacholspotdetails[i], R.drawable.dalhousiehimachal));
+            }
+        } else if (districtName.equals("কাশ্মীর")) {
+            for (int i = 0; i < kashmirspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", kashmirspotdetails[i], R.drawable.sonamargkashmir));
+            }
+        } else if (districtName.equals("মেঘালয়")) {
+            for (int i = 0; i < meghaloyspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", meghaloyspotdetails[i], R.drawable.sonamargkashmir));
+            }
+        } else if (districtName.equals("উত্তরাখান্ড")) {
+            for (int i = 0; i < uttorakhandspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", uttorakhandspotdetails[i], R.drawable.auliuttarakhand));
+            }
+        }
+
+        // world tour details setup
+
+
+        else if (districtName.equals("নেপাল")) {
+            for (int i = 0; i < nepalspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", nepalspotdetails[i], R.drawable.annapurnanepal));
+            }
+        } else if (districtName.equals("থাইল্যান্ড")) {
+            for (int i = 0; i < thailandspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", thailandspotdetails[i], R.drawable.bangkokthailand));
+            }
+        } else if (districtName.equals("ভুটান")) {
+            for (int i = 0; i < vutanspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", vutanspotdetails[i], R.drawable.bumthangbhutan));
+            }
+        } else if (districtName.equals("শ্রীলংকা")) {
+            for (int i = 0; i < srilankaspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", srilankaspotdetails[i], R.drawable.adamspeaksrilanka));
+            }
+        } else if (districtName.equals("ইন্দোনেশিয়া")) {
+            for (int i = 0; i < indonesiaspotdetails.length; i++) {
+                spotlist.add(new DivisionModel("india spot", indonesiaspotdetails[i], R.drawable.baliindonesia));
+            }
+        }
+
     }
+
 }

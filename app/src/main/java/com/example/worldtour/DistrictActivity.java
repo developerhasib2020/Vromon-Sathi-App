@@ -45,6 +45,8 @@ public class DistrictActivity extends AppCompatActivity {
             setRangpurDistrictlist();
         } else if (divisionPosition == 7) {
             setBarishalDistrictlist();
+        } else if (divisionPosition == 8) {
+            setIndiaRajjo();
         }
 
 
@@ -152,6 +154,14 @@ public class DistrictActivity extends AppCompatActivity {
         districtlist.add(new DivisionModel("পটুয়াখালী", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.kuakatapatuakhai));
         districtlist.add(new DivisionModel("ভোলা", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.charkukrimukri));
         districtlist.add(new DivisionModel("বরগুনা", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.haringhatabarguna));
+    }
+    private void setIndiaRajjo() {
+        districtlist.add(new DivisionModel("দার্জিলিং", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.darjeelingindia));
+        districtlist.add(new DivisionModel("সিকিম", "দর্শনীয় স্থান ঃ ০১টি", R.drawable.sikkimteagarden));
+        districtlist.add(new DivisionModel("হিমাচল", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.dharamsalahimachalindia));
+        districtlist.add(new DivisionModel("কাশ্মীর", "দর্শনীয় স্থান ঃ ০৬টি", R.drawable.sonamargkashmir));
+        districtlist.add(new DivisionModel("মেঘালয়", "দর্শনীয় স্থান ঃ ০৩টি", R.drawable.kongthongmeghalaya));
+        districtlist.add(new DivisionModel("উত্তরাখান্ড", "দর্শনীয় স্থান ঃ ০২টি", R.drawable.auliuttarakhand));
     }
 
 }
